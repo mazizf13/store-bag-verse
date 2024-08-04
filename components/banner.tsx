@@ -13,7 +13,7 @@ const Banner: React.FC<BannerProps> = ({ data }) => {
       >
         <div className="h-full w-full flex flex-col justify-center items-center text-center gap-y-8">
           <div className="font-bold test-3xl sm:text-xl lg:text-6xl sm:max-w-xl max-w-xs">
-            {data.label}
+            {data?.label}
           </div>
         </div>
       </div>
